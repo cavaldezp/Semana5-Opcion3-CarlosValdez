@@ -5,7 +5,6 @@ TOT=0   // total tratamiento
 
 
 
-
 while (prompt(console.log("¿Tratamiento en Curso? Ingrese S mayuscula para continuar"))=="S"){
 
     NC = NC + 1;
@@ -29,10 +28,11 @@ while (prompt(console.log("¿Tratamiento en Curso? Ingrese S mayuscula para cont
         console.log(`El costo total de tratamientos a la fecha es S/. ${TOT}`);
     }
 
-
 }
 console.log(`Fin del tratamiento`);
 console.log(`El número total de citas es ${NC}`);
 console.log(`El costo total final del tratamientos es S/. ${TOT}`);
+
+
 
         
